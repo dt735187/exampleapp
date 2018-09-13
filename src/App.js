@@ -11,13 +11,6 @@ const App = () => {
       {persons.map(person => (
         <div key={persons.id}>
          <ul >
-          <li>{person.name}</li>
-         </ul>
-        </div>
-      ))}
-      <button onClick={() => setPersons(...persons, [{name: "archana", id: Date.now()}])}>add person</button>
-      < onClick={() => setCount()}>plus</
-    </div>
   )
 }
 
