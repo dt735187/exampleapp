@@ -7,9 +7,7 @@ const App = () => {
   return (
     <div className='App'>
       <Header />
-      <h1>{count}</h1>
-      {persons.map(person => (
-        <div key={persons.id}>
+      <h1>{c={persons.id}>
          <ul >
   )
 }
