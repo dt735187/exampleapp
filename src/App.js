@@ -16,7 +16,7 @@ const App = () => {
         </div>
       ))}
       <button onClick={() => setPersons(...persons, [{name: "archana", id: Date.now()}])}>add person</button>
-      <button onClick={() => setCount()}>plus</button>
+      <butt onClick={() => setCount()}>plus</butt
     </div>
   )
 }
